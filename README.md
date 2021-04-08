@@ -6,14 +6,41 @@
 <hr>
 POST/ <br>
 http://localhost:8080/salvar
-<br> 
 
-lista <br>
-altera <br>
-exclui <br>
-busca por id <br>
-busca por nome <br>
-busca por cnpj <br>
+<br> 
+<h2>Listar todos </h2>
+<hr>
+GET/ <br>
+http://localhost:8080/listar
+
+<h2>Atualizar existente</h2>
+<hr>
+PUT/ <br>
+http://localhost:8080/atualizar/{id}
+
+<br>
+<h2>Deletar um item</h2>
+<hr>
+DELETE/ <br>
+http://localhost:8080/deletar/{id}
+
+<br>
+<h2>Busca por nome</h2>
+<hr>
+GET/ <br>
+http://localhost:8080/buscaNome/{nome}
+
+<h2>Busca por Id</h2>
+<hr>
+GET/ <br>
+http://localhost:8080/buscaId/{id}
+
+<h2>Busca por CNPJ</h2>
+<hr>
+GET/ <br>
+http://localhost:8080/buscaCnpj/{cnpj}
+
+
 <br>
 
 
