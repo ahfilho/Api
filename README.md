@@ -39,8 +39,7 @@ GET/</li> <br>
 <li/>Method: <br>
 PUT/</li> <br>
 <b>URL</b> http://localhost:8080/atualizar/{id}
-<h4>response</h4>
- [{"id":1,"nome":"Empresa A","segmento":"comércio","cnpj":1020304050,"email":"Email@email.com"}]
+<h4>response</h4> [{"id":1,"nome":"Empresa A","segmento":"comércio","cnpj":1020304050,"email":"Email@email.com"}]
 <hr>
 
 <h2>Deletar um item</h2>
