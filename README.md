@@ -16,7 +16,7 @@ INTERFACE -- actions --> Acoes <br>
 
 <h2>Criar novo</h2>
 <li>Method: <br>
-POST</li>/ <br>
+POST/</li> <br>
 <b>URL</b> http://localhost:8080/salvar  <br>
 <h4>response<h4>  
 <br>
@@ -80,8 +80,8 @@ GET/</li> <br>
 <hr>
 
 <h2>Busca por CNPJ</h2>
-<li>Method <br></li>
-<td>GET/ <br>
+<li>Method <br>
+GET/</li> <br>
 <b>URL</b> http://localhost:8080/buscaCnpj/{cnpj}
 <h4>response</h4>
   {
