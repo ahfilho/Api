@@ -4,7 +4,10 @@
 
 <h2>Criar novo</h2>
 <hr>
-salva <br> 
+POST/ <br>
+http://localhost:8080/salvar
+<br> 
+
 lista <br>
 altera <br>
 exclui <br>
