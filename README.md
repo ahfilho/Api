@@ -3,10 +3,12 @@
 #Operações realizadas
 
 <h2>Criar novo</h2>
-POST/ <br>
-http://localhost:8080/salvar  <br>
+<li>Method: <br>
+POST</li>/ <br>
+<b>URL</b> http://localhost:8080/salvar  <br>
 
-##response  
+
+<h4>response<h4>  
 <br>
 {
 "nome":"nome da empresa",
@@ -18,39 +20,45 @@ http://localhost:8080/salvar  <br>
 }
 <hr>
 <h2>Listar todos </h2>
-<li>GET/</li> <br>
-##URL http://localhost:8080/listar <br>
+<li>Method: <br>
+GET/</li> <br>
+<b>URL</b> http://localhost:8080/listar <br>
 
-##response [{"id":1,"nome":"nome da empresa","segmento":"tecnologia","cnpj":111111111,"email":"meuEmail@email.com"}]
+<h4>response</h4> [{"id":1,"nome":"nome da empresa","segmento":"tecnologia","cnpj":111111111,"email":"meuEmail@email.com"}]
 <hr>
 
 <h2>Atualizar existente</h2>
-PUT/ <br>
-##URL http://localhost:8080/atualizar/{id}
+<li/>Method: <br>
+PUT/</li> <br>
+<b>URL</b> http://localhost:8080/atualizar/{id}
 
 <hr>
 <h2>Deletar um item</h2>
 <hr>
-DELETE/ <br>
-##URL http://localhost:8080/deletar/{id}
+<li>Method: <br>
+DELETE/</li> <br>
+<b>URL</b> http://localhost:8080/deletar/{id}
 
 <hr>
 <h2>Busca por nome</h2>
 <hr>
-GET/ <br>
-##URL http://localhost:8080/buscaNome/{nome}
+<li>Method: <br>
+GET/</li> <br>
+<b>URL</b> http://localhost:8080/buscaNome/{nome}
 
 <hr>
 <h2>Busca por Id</h2>
 <hr>
-GET/ <br>
-##URL http://localhost:8080/buscaId/{id}
+<li>Method: <br>
+GET/</li> <br>
+<b>URL</b> http://localhost:8080/buscaId/{id}
 
 <hr>
 <h2>Busca por CNPJ</h2>
 <hr>
-GET/ <br>
-##URL http://localhost:8080/buscaCnpj/{cnpj}
+<li>Method <br></li>
+<td>GET/ <br>
+<b>URL</b> http://localhost:8080/buscaCnpj/{cnpj}
 
 <hr>
 
