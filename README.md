@@ -14,7 +14,7 @@ POST</li>/ <br>
 "nome":"nome da empresa",
 "segmento":"tecnologia",
 "cnpj":"1234567890",
-"email":"Email@email.com"
+"email":"MeuEmail@email.com"
 
 
 }
@@ -24,7 +24,7 @@ POST</li>/ <br>
 GET/</li> <br>
 <b>URL</b> http://localhost:8080/listar <br>
 
-<h4>response</h4> [{"id":1,"nome":"nome da empresa","segmento":"tecnologia","cnpj":111111111,"email":"meuEmail@email.com"}]
+<h4>response</h4> [{"id":1,"nome":"nome da empresa","segmento":"tecnologia","cnpj":1234567890,"email":"meuEmail@email.com"}]
 <hr>
 
 <h2>Atualizar existente</h2>
@@ -32,12 +32,15 @@ GET/</li> <br>
 PUT/</li> <br>
 <b>URL</b> http://localhost:8080/atualizar/{id}
 
+<h4>response</h4>
+ [{"id":1,"nome":"Empresa A","segmento":"comércio","cnpj":1020304050,"email":"Email@email.com"}]
 <hr>
 <h2>Deletar um item</h2>
 <hr>
 <li>Method: <br>
 DELETE/</li> <br>
 <b>URL</b> http://localhost:8080/deletar/{id}
+<h4>response</h4> "OK"
 
 <hr>
 <h2>Busca por nome</h2>
@@ -45,21 +48,43 @@ DELETE/</li> <br>
 <li>Method: <br>
 GET/</li> <br>
 <b>URL</b> http://localhost:8080/buscaNome/{nome}
+<h4>response</h4> 
 
+    {
+        "id": 1,
+        "nome": "nome da empresa",
+        "segmento": "tecnologia",
+        "cnpj": 111111111,
+        "email": "meuEmail@email.com"
+    }
 <hr>
 <h2>Busca por Id</h2>
 <hr>
 <li>Method: <br>
 GET/</li> <br>
 <b>URL</b> http://localhost:8080/buscaId/{id}
-
+<h4>response</h4>
+{
+        "id": 1,
+        "nome": "nome da empresa",
+        "segmento": "tecnologia",
+        "cnpj": 111111111,
+        "email": "meuEmail@email.com"
+    }
 <hr>
 <h2>Busca por CNPJ</h2>
 <hr>
 <li>Method <br></li>
 <td>GET/ <br>
 <b>URL</b> http://localhost:8080/buscaCnpj/{cnpj}
-
+<h4>response</h4>
+  {
+        "id": 1,
+        "nome": "nome da empresa",
+        "segmento": "tecnologia",
+        "cnpj": 111111111,
+        "email": "meuEmail@email.com"
+    }
 <hr>
 
 
