@@ -1,10 +1,12 @@
 # Api
-Lombok
-validation
-dev tools
-spring web
-H2database
-## Design pattern utilizado
+### Dependências utilizadas 
+-Lombok
+-validation
+-dev tools
+-spring web
+-H2database
+
+### Design pattern utilizado
 DTO
 
 # Operações realizadas via API
