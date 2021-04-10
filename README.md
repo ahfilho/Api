@@ -1,4 +1,11 @@
 # Api
+Lombok
+validation
+dev tools
+spring web
+H2database
+## Design pattern utilizado
+DTO
 
 # Operações realizadas via API
 <li>Salvar</li>
@@ -8,17 +15,17 @@
 <li>Busca por ID</li>
 <li>Busca por Nome</li>
 <li>Busca por CNPJ</li>
-
+<hr>
 <br>
-<b>Package --> Class
-</b>
+# Package --> Class
+
 controller --> Controller <br>
 model -->  Empresa <br>
 date --> DateUtil <br>
 repository --> Repository <br>
 services --> Servicos <br>
 INTERFACE -- actions --> Acoes <br>
-
+<hr>
 # Postman para realizar os testes das requisições de acordo com as operações mencionadas
 <hr>
 <h4> Metodos utilizados nas requisiçoes</h4>
