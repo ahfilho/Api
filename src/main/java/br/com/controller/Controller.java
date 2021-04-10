@@ -16,10 +16,12 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.servicos.Servicos;
 import lombok.extern.log4j.Log4j2;
 import br.com.date.DateUtil;
 import br.com.model.Empresa;
+import br.com.model.EmpresaDTO;
+import br.com.model.EmpresaRespostaDTO;
+import br.com.servicos.*;
 
 @RestController()
 @Log4j2
@@ -39,16 +41,22 @@ public class Controller {
 	}
 
 	@PostMapping("/salvar")
-	public ResponseEntity<Empresa> adicionar(@Valid @RequestBody Empresa empresa) {
+	public ResponseEntity<EmpresaRespostaDTO> adicionar(@Valid @RequestBody EmpresaDTO dto, HttpStatus created) {
 		log.info(dateUtil.formatLocalDateTimeDatabaseStyle(LocalDateTime.now()));
 
 		ResponseEntity.ok("O nome não pode ser nulo");
-		return ResponseEntity.ok().body(this.serv.adicionar(empresa));
-
+		
+		//responseEntity = para situações de retorno do serviço
+		//OK = envia todas as notas ao servidor e devolve o status 200, que deu tudo certo.
+		//ResponseEntity.ok().body(this.serv.adicionar(dto.transformaParaObjeto()));
+		Empresa empresa = this.serv.adicionar(dto.transformaParaObjeto());	
+		return new ResponseEntity<>(EmpresaRespostaDTO.transformaEmDTO(empresa),  HttpStatus.CREATED);
 	}
+
 
 	@GetMapping("/buscaId/{id}")
 	public ResponseEntity<Empresa> getByID(@PathVariable long id) throws Exception {
+
 		return ResponseEntity.ok().body(serv.getById(id));
 	}
 

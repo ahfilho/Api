@@ -1,4 +1,4 @@
-package br.com.metodos;
+package br.com.actions;
 
 import br.com.model.Empresa;
 

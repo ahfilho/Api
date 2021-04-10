@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import br.com.repository.Repository;
 import javassist.tools.rmi.ObjectNotFoundException;
-import br.com.metodos.Acoes;
+import br.com.actions.Acoes;
 import br.com.model.Empresa;
 
 @Service

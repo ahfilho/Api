@@ -21,10 +21,7 @@ public class ApiPraticarApplication {
 	//dev tools
 	//H2
 	//LOMBOK
-	@RequestMapping("/home")
-	public String hello() {
-		return "Hello buddy!";
-	}
+	
 
 
 }

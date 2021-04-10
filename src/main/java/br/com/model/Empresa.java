@@ -23,7 +23,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Table(name = "empresa")
 
-public class Empresa {
+public class Empresa { // ----- USUARIO DTO
 
 	@Id
 	@Column
@@ -45,5 +45,11 @@ public class Empresa {
 	@Email
 	@Column(name = "email")
 	private String email;
+
+	//@NotBlank(message = "admin é obrigatório")
+	private boolean admin = false;
+
+	//@Min(value = 8, message = "obrigatório")
+	private int senha;
 
 }
