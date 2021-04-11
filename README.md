@@ -1,15 +1,15 @@
 # Api
 ### Dependências utilizadas 
--Lombok
--validation
--dev tools
--spring web
--H2database
+-Lombok <br>
+-validation <br>
+-dev tools <br>
+-spring web <br>
+-H2database <br>
 
 ### Design pattern utilizado
 DTO
 
-# Operações realizadas via API
+# Operações realizadas pela API
 <li>Salvar</li>
 <li>Listar</li>
 <li>Alterar</li>
@@ -19,6 +19,10 @@ DTO
 <li>Busca por CNPJ</li>
 <hr>
 <br>
+<hr>
+
+<h4>Pacotes e classes</h4>
+
 # Package --> Class
 
 controller --> Controller <br>
