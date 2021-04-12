@@ -2,10 +2,10 @@
 # Api
 
 # Utilizei a IDE spring tools suite.
-Só é preciso baixar o projeto e descompactar.
-https://github.com/ahfilho/Api/issues/1
-Em seguida, com a IDE  aberta, na aba # FILES > # OPEN PROJECT FROM FILE SYSTEM > # DIRECTORY > procurar a pasta do projeto e abrir.
-O próximo passo é ir na aba BOOT DASHBOARD
+É preciso baixar o projeto e descompactar. <br>
+Em seguida, com a IDE  aberta, na aba: <br>
+<b> FILES > OPEN PROJECT FROM FILE SYSTEM >  DIRECTORY > procurar a pasta do projeto e abrir.
+O próximo passo é ir na aba BOOT DASHBOARD e executar o projeto. </b>
 
 
 ### Dependências utilizadas 
