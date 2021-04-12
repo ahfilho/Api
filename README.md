@@ -26,7 +26,6 @@ DTO
 <li>Busca por ID</li>
 <li>Busca por Nome</li>
 <li>Busca por CNPJ</li>
-<hr>
 <br>
 <hr>
 
