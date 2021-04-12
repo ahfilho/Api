@@ -26,6 +26,7 @@ DTO
 <li>Busca por ID</li>
 <li>Busca por Nome</li>
 <li>Busca por CNPJ</li>
+<li>Data/hora no back</li>
 <br>
 <hr>
 
