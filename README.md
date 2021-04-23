@@ -1,15 +1,24 @@
+
 # Api
+
+# Utilizei a IDE spring tools suite.
+É preciso baixar o projeto e descompactar. <br>
+Em seguida, com a IDE  aberta, na aba: <br>
+<b> FILES > OPEN PROJECT FROM FILE SYSTEM >  DIRECTORY > procurar a pasta do projeto e abrir.
+O próximo passo é ir na aba BOOT DASHBOARD e executar o projeto. </b>
+
+
 ### Dependências utilizadas 
--Lombok
--validation
--dev tools
--spring web
--H2database
+-Lombok <br>
+-validation <br>
+-dev tools <br>
+-spring web <br>
+-H2database <br>
 
 ### Design pattern utilizado
 DTO
 
-# Operações realizadas via API
+# Operações realizadas pela API
 <li>Salvar</li>
 <li>Listar</li>
 <li>Alterar</li>
@@ -17,8 +26,12 @@ DTO
 <li>Busca por ID</li>
 <li>Busca por Nome</li>
 <li>Busca por CNPJ</li>
-<hr>
+<li>Data/hora no back</li>
 <br>
+<hr>
+
+<h4>Pacotes e classes</h4>
+
 # Package --> Class
 
 controller --> Controller <br>
