@@ -44,6 +44,20 @@ public class Servicos implements Acoes {
 			throw new Exception("ERRO AO ATUALIZAR" + empresa.getId());
 		}
 	}
+	public Empresa alterarParcial(Empresa empresa) throws Exception {
+		Optional<Empresa> empresaDb = this.reposit.findById(empresa.getId());
+		if (empresaDb.isPresent()) {
+			Empresa empresaAtt = empresaDb.get();
+			empresaAtt.setId(empresa.getId());
+			empresaAtt.setNome(empresa.getNome());
+			empresaAtt.setSegmento(empresa.getSegmento());
+			empresaAtt.setCnpj(empresa.getCnpj());
+			reposit.save(empresaAtt);
+			return empresaAtt;
+		} else {
+			throw new Exception("ERRO AO ATUALIZAR" + empresa.getId());
+		}
+	}
 
 	public Empresa getById(long empresaId) throws Exception {
 		Optional<Empresa> empresaDb = this.reposit.findById(empresaId);

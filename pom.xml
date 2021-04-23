@@ -55,16 +55,8 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-		
-		
-		
-		
-		
-		
-	</dependencies>
 	
-	
-	
+		</dependencies>	
 
 	<build>
 		<plugins>
